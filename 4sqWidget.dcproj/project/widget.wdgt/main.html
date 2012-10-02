@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <script type="text/javascript" src="file:///System/Library/WidgetResources/AppleClasses/AppleAnimator.js" charset="utf-8"></script>
+    <script type="text/javascript" src="file:///System/Library/WidgetResources/AppleClasses/AppleButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="file:///System/Library/WidgetResources/AppleClasses/AppleInfoButton.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="Parts/parts.js" charset="utf-8"></script>
+    <script type="text/javascript" src="localizedStrings.js" charset="utf-8"></script>
+    <script type="text/javascript" src="main.js" charset="utf-8"></script>
+</head>
+<body onload="load();">
+    <div id="front">
+        <img id="frontImg" src="Parts/Images/front.png" alt="">
+        <div id="info"><div style="position: absolute; top: 0px; left: 0px; width: 13px; height: 13px; opacity: 0.25; visibility: hidden; background-image: url(file:///System/Library/WidgetResources/ibutton/black_rollie.png); background-size: 100%; background-position: 0% 0%; background-repeat: no-repeat no-repeat; "></div><img tabindex="0" role="button" style="outline: 0px; position: absolute; top: 0px; left: 0px; opacity: 0; " width="13" height="13" alt="Info" aria-label="Info" src="file:///System/Library/WidgetResources/ibutton/white_i.png"></div>
+        <div id="glassButton"><div tabindex="0" role="button" style="-apple-dashboard-region: dashboard-region(control rectangle); height: 23px; " aria-disabled="false"><div style="display: inline-block; vertical-align: bottom; background-image: url(file:///System/Library/WidgetResources/button/glassbuttonleft.png); height: 23px; width: 10px; background-size: 100%; background-position: 0% 0%; background-repeat: no-repeat no-repeat; "></div><div style="display: inline-block; vertical-align: bottom; background-image: url(file:///System/Library/WidgetResources/button/glassbuttonmiddle.png); background-size: 100%; line-height: 23px; height: 23px; overflow: hidden; white-space: nowrap; font-size: 12px; font-family: 'Helvetica Neue'; color: white; font-weight: bold; background-repeat: repeat no-repeat; ">           Check In           </div><div style="display: inline-block; vertical-align: bottom; background-image: url(file:///System/Library/WidgetResources/button/glassbuttonright.png); background-size: 100%; height: 23px; width: 10px; background-position: 0% 0%; background-repeat: no-repeat no-repeat; "></div></div></div>
+        <div id="logo"><img src="Images/png.png" id="inner_image"></div>
+        <div id="venueName"></div>
+        <div id="text2">Last Check-In:</div>
+        <div id="lastCheckin">Never</div>
+    </div>
+    <div id="back">
+        <img id="backImg" src="Parts/Images/back.png" alt="">
+        <div id="done"><div tabindex="0" role="button" style="-apple-dashboard-region: dashboard-region(control rectangle); height: 23px; " aria-disabled="false"><div style="display: inline-block; vertical-align: bottom; background-image: url(file:///System/Library/WidgetResources/button/glassbuttonleft.png); height: 23px; width: 10px; background-size: 100%; background-position: 0% 0%; background-repeat: no-repeat no-repeat; "></div><div style="display: inline-block; vertical-align: bottom; background-image: url(file:///System/Library/WidgetResources/button/glassbuttonmiddle.png); background-size: 100%; line-height: 23px; height: 23px; overflow: hidden; white-space: nowrap; font-size: 12px; font-family: 'Helvetica Neue'; color: white; font-weight: bold; background-repeat: repeat no-repeat; ">Done</div><div style="display: inline-block; vertical-align: bottom; background-image: url(file:///System/Library/WidgetResources/button/glassbuttonright.png); background-size: 100%; height: 23px; width: 10px; background-position: 0% 0%; background-repeat: no-repeat no-repeat; "></div></div></div>
+        <input id="tokenField" type="text" name="" value="">
+        <div id="text1">Token:</div>
+        <div id="glassButton1"><div tabindex="0" role="button" style="-apple-dashboard-region: dashboard-region(control rectangle); height: 23px; " aria-disabled="false"><div style="display: inline-block; vertical-align: bottom; background-image: url(file:///System/Library/WidgetResources/button/glassbuttonleft.png); height: 23px; width: 10px; background-size: 100%; background-position: 0% 0%; background-repeat: no-repeat no-repeat; "></div><div style="display: inline-block; vertical-align: bottom; background-image: url(file:///System/Library/WidgetResources/button/glassbuttonmiddle.png); background-size: 100%; line-height: 23px; height: 23px; overflow: hidden; white-space: nowrap; font-size: 12px; font-family: 'Helvetica Neue'; color: white; font-weight: bold; background-repeat: repeat no-repeat; ">Authorize</div><div style="display: inline-block; vertical-align: bottom; background-image: url(file:///System/Library/WidgetResources/button/glassbuttonright.png); background-size: 100%; height: 23px; width: 10px; background-position: 0% 0%; background-repeat: no-repeat no-repeat; "></div></div></div>
+    </div>
+</body>
+</html>

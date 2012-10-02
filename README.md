@@ -36,10 +36,23 @@ Clone the repo locally and open with Dashcode
 
 Then press CMD+2 to open the source
 
-look for an object called settings
+look for an object called settings in main.js
+
+```
+var settings = {
+  app_id: "",
+  venue_name: "kohactive",
+  venue_id: "4bc265a2f8219c74e0dab410",
+  venue_longlat: "41.895347,-87.648072",
+  permissions:  "public,twitter",
+  redirect_url: "http://www.kohactive.com"
+}
+```
 
 Here you can configure the app with long_lat, venue_id, venue name, callback url, and app_id
 
 These are all things you acquire from http://foursquare.com/api when creating an app.
 
 Good luck.
+
+
